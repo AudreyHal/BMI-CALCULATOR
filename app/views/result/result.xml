@@ -1,0 +1,5 @@
+<Page loaded="loaded" class="page">
+<StackLayout>
+<label text="{{model}}"/>
+</StackLayout>
+</Page>

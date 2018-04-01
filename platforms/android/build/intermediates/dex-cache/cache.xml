@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-transition-26.0.0-alpha1_14d7e39674d3b4fcc4aa9a30cbc844d1b84eede5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-26.0.0-alpha1_292448c93a94ec4d541d462a8ac191c531a27cde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files (x86)\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-26.0.0-alpha1_5eff5c67bc181fec37180c0b5aa7c283e1745041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_1505004108a9ee1d5d5b04f99f3caa75d2af0b91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-ui-26.0.0-alpha1_50ef65a38bf07b09d64b45206f5743ee0148a37c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-26.0.0-alpha1_070b53942f9b2db553f7d3f0e1b19809d6339089.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\design\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-26.0.0-alpha1_e15016547e87d5557b760c8ae483e886461af50e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-nativescript-optimized_400b53a7a83a0f4e6495f36923fcd298b8955c0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-26.0.0-alpha1_26e973019546763636536f41785a30e4df22036a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_6162e13339d63d46e7051ba53fa67621e25f18d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_e6e90e0f3fd9bff75a9ed2e9d6444316d422834a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-26.0.0-alpha1_c7ee00c269f53b0470d31148391ad8d24d2a8a92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-26.0.0-alpha1_30c35dc818ed2ff1bdbbb8f4f1d419b52e48023e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_459310a5209f305209a30e88d4276f038ad822e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-26.0.0-alpha1_74a037a41be338d12ccdaa9a8813d8ed6e0d5356.jar" />
+    </item>
+
+</items>
