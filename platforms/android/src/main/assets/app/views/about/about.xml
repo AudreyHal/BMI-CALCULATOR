@@ -2,7 +2,6 @@
 <Page loaded="loaded" class="page">
        <Page.actionBar>
         <ActionBar title="BMI CALCULATOR" icon="" class="action-bar">
-        
         </ActionBar>
     </Page.actionBar>
     

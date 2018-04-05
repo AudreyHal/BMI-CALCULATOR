@@ -1,5 +1,27 @@
-<Page loaded="loaded" class="page">
+<Page loaded="loaded" class="page" actionBarHidden="true">
 <StackLayout>
-<label text="{{model}}"/>
+<label text="YOUR BODY MASS INDEX (BMI)" id="title" /> 
+<StackLayout class="head">
+
+<GridLayout columns= "auto,auto" rows="auto" class="bm" width="40%" >
+<label text="BMI : "   row="0" col="0" id="h1"/>
+<label text="{{model}}" id="model"  row="0" col="1"/>
+</GridLayout>
+<label text="ff" id="status"/>
 </StackLayout>
-</Page>
+<!--<Button text="save" tap="save"/>-->
+
+<GridLayout columns= "2*,*" rows="*,*,*,*,*,*," class="tab" height="45%">
+ <Label text="Underweight" row="0" col="0" class="one"/><Label text="<18.5" row="0" col="1" class="one"/>
+<Label text="Normal" row="1" col="0" class="two"/><Label text="18.5 - 25" row="1" col="1" class="two"/>
+<Label text="Overweight" row="2" col="0" class="three"/><Label text="25 - 30" row="2" col="1" class="three"/>
+<Label text="Obese" row="3" col="0" class="four"/><Label text="<18.5" text="30 - 35" row="3" col="1" class="four"/>
+<Label text="Severely Obese" row="4" col="0" class="five" /><Label text="35 - 40" row="4" col="1" class="five" />
+<Label text="Very Severely Obese" row="5" col="0" class="six" /><Label text="> 40" row="5" col="1" class="six"/>
+
+</GridLayout>
+
+<label text="ff" id="status2" textWrap="true"/>
+
+</StackLayout>
+</Page> 

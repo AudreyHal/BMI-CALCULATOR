@@ -1,35 +1,54 @@
-<Page class="page" loaded="loaded" navigatingTO="navigatingTO">
+<Page class="page" loaded="loaded" >
 <Page.actionBar>
-        <ActionBar title="My App" icon="" class="action-bar">
+        <ActionBar title="US UNITS" icon="" class="action-bar">
         <ActionBar.actionItems>
-        <ActionItem text="Cancel" tap="cancel" ios.position="left"/>
-        <ActionItem text="Done" tap="done" ios.position="right"/>
+        <ActionItem text="Back" tap="back" />
         </ActionBar.actionItems>
         </ActionBar>
     </Page.actionBar>
-<GridLayout columns= "*,5*" rows="auto,auto,auto,auto,auto"  >
-<StackLayout row="0" col="0">
-<label text="add photo" /> 
-<label text="add photo" />
-<label text="add photo" />
-</StackLayout>
-<StackLayout row="0" col="1">
-<TextField hint ="FirstName" id="mass" />
-<TextField hint ="LastName" id="height" />
-<TextField hint ="Company" id="Company" />
+<GridLayout columns= "*,*" rows="auto,auto,auto,auto,auto,auto,auto,auto,auto"  >
+<StackLayout row="0" col="0" colSpan="2">
+<label text="AGE" /> 
 </StackLayout>
 
 <StackLayout row="1" col="0" colSpan="2">
-<Button text ="add phone" class="btn"/>
+<TextField hint ="Age" id="Age" />
 </StackLayout>
+
 <StackLayout row="2" col="0" colSpan="2">
-<Button text ="add email" class="btn" />
+<label text="HEIGHT" /> 
 </StackLayout>
-<StackLayout row="3" col="0" colSpan="2">
-<Button text ="add url" class="btn" />
+
+<StackLayout row="3" col="0">
+<TextField hint ="ft" id="height1"  />
 </StackLayout>
+
+<StackLayout row="3" col="1">
+<TextField hint ="inches" id="height2" />
+</StackLayout>
+
 <StackLayout row="4" col="0" colSpan="2">
-<Button text ="add address" class="btn"/>
+<label text="WEIGHT" /> 
+</StackLayout>
+
+<StackLayout row="5" col="0" colSpan="2">
+<TextField hint ="weight" id="mass"    />
+</StackLayout>
+
+<StackLayout row="6" col="0" colSpan="2">
+<label text="GENDER" /> 
+</StackLayout>
+
+<StackLayout row="7" col="0">
+<Button text ="male" id="male" />
+</StackLayout>
+
+<StackLayout row="7" col="1">
+<Button text ="Female" id="female" />
+</StackLayout>
+
+<StackLayout row="8" col="0" colSpan="2">
+<Button text ="Submit" tap="done" />
 </StackLayout>
 
 </GridLayout>
