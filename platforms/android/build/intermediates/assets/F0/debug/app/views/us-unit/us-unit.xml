@@ -1,0 +1,41 @@
+<Page class="page" loaded="loaded" >
+<Page.actionBar>
+        <ActionBar title="US UNITS" icon="" class="action-bar">
+        <ActionBar.actionItems>
+        <ActionItem text="Back" tap="back" id="back" style="color:white" />
+        </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+
+<GridLayout rows="*,auto">
+<StackLayout class="top" row="0" >
+<label text="AGE"  class="label" /> 
+
+<TextField hint ="Age" id="Age" class="textfield" />
+
+<label text="HEIGHT"  class="label" /> 
+
+
+<GridLayout columns= "*,*" rows="auto" class="bm" width="70%" >
+<TextField hint ="ft" id="height1" class="textfield"  row="0" col="0"  />
+<TextField hint ="inches" id="height2" class="textfield" row="0" col="1"  />
+</GridLayout>
+
+<label text="WEIGHT"  class="label" /> 
+
+<TextField hint ="weight" id="mass"  class="textfield"   />
+
+<label text="GENDER"  class="label" /> 
+<GridLayout columns= "auto,auto" rows="auto" class="bm2" width="70%" >
+<Button text ="male" id="male" row="0" col="0" tap="selected" id="btn" class="active" />
+<Button text ="Female" id="female" row="0" col="1" tap="selected2" id="btn2" class="inactive" />
+</GridLayout>
+
+
+</StackLayout>
+
+<StackLayout class="done" row="1"   >
+<Button text ="CALCULATE" tap="done"  />
+</StackLayout>
+</GridLayout>
+</Page>

@@ -10,6 +10,7 @@
 		}
 	},
 	"dependencies": {
+		"nativescript-sqlite": "^2.0.1",
 		"nativescript-theme-core": "~1.0.2",
 		"tns-core-modules": "~3.3.0"
 	},

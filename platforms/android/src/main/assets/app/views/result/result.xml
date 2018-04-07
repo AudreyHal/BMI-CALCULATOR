@@ -9,7 +9,7 @@
 </GridLayout>
 <label text="ff" id="status"/>
 </StackLayout>
-<!--<Button text="save" tap="save"/>-->
+
 
 <GridLayout columns= "2*,*" rows="*,*,*,*,*,*," class="tab" height="45%">
  <Label text="Underweight" row="0" col="0" class="one"/><Label text="<18.5" row="0" col="1" class="one"/>
@@ -22,6 +22,6 @@
 </GridLayout>
 
 <label text="ff" id="status2" textWrap="true"/>
-
+<Button text="history" tap="history"/>
 </StackLayout>
 </Page> 

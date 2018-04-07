@@ -1,4 +1,4 @@
-var frameModule=require("ui/frame");
+var frame=require("ui/frame");
 var fileSystem = require("file-system");
 
 exports.loaded=function(args){
@@ -33,3 +33,7 @@ exports.loaded=function(args){
     var saved=file.readTextSync();
    
   } 
+
+  exports.history=function(args){ 
+  frame.topmost().navigate("views/history/history");
+  }

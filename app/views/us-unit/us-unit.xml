@@ -1,56 +1,40 @@
-<Page class="page" loaded="loaded" >
-<Page.actionBar>
-        <ActionBar title="US UNITS" icon="" class="action-bar">
-        <ActionBar.actionItems>
-        <ActionItem text="Back" tap="back" />
-        </ActionBar.actionItems>
-        </ActionBar>
-    </Page.actionBar>
-<GridLayout columns= "*,*" rows="auto,auto,auto,auto,auto,auto,auto,auto,auto"  >
-<StackLayout row="0" col="0" colSpan="2">
-<label text="AGE" /> 
-</StackLayout>
+<Page class="page" loaded="loaded" actionBarHidden="true" >
 
-<StackLayout row="1" col="0" colSpan="2">
-<TextField hint ="Age" id="Age" />
-</StackLayout>
 
-<StackLayout row="2" col="0" colSpan="2">
-<label text="HEIGHT" /> 
-</StackLayout>
-
-<StackLayout row="3" col="0">
-<TextField hint ="ft" id="height1"  />
-</StackLayout>
-
-<StackLayout row="3" col="1">
-<TextField hint ="inches" id="height2" />
-</StackLayout>
-
-<StackLayout row="4" col="0" colSpan="2">
-<label text="WEIGHT" /> 
-</StackLayout>
-
-<StackLayout row="5" col="0" colSpan="2">
-<TextField hint ="weight" id="mass"    />
-</StackLayout>
-
-<StackLayout row="6" col="0" colSpan="2">
-<label text="GENDER" /> 
-</StackLayout>
-
-<StackLayout row="7" col="0">
-<Button text ="male" id="male" />
-</StackLayout>
-
-<StackLayout row="7" col="1">
-<Button text ="Female" id="female" />
-</StackLayout>
-
-<StackLayout row="8" col="0" colSpan="2">
-<Button text ="Submit" tap="done" />
-</StackLayout>
+<GridLayout rows="*,auto">
+<GridLayout columns= "*,*" rows="auto">
+<Button text ="US UNIT" id="us" row="0" col="0" tap="us" class="active" />
+<Button text ="METRIC UNIT" id="metric" row="0" col="1" tap="metric"  class="inactive" />
 
 </GridLayout>
+<StackLayout class="top" row="0" >
+<label text="AGE"  class="label" /> 
 
+<TextField hint ="Age" id="Age" class="textfield" />
+
+<label text="HEIGHT"  class="label" /> 
+
+
+<GridLayout columns= "*,*" rows="auto" class="bm" width="70%" >
+<TextField hint ="ft" id="height1" class="textfield"  row="0" col="0"  />
+<TextField hint ="inches" id="height2" class="textfield" row="0" col="1"  />
+</GridLayout>
+
+<label text="WEIGHT"  class="label" /> 
+
+<TextField hint ="weight" id="mass"  class="textfield"   />
+
+<label text="GENDER"  class="label" /> 
+<GridLayout columns= "auto,auto" rows="auto" class="bm2" width="70%" >
+<Button text ="male" id="male" row="0" col="0" tap="selected" id="btn" class="active" />
+<Button text ="Female" id="female" row="0" col="1" tap="selected2" id="btn2" class="inactive" />
+</GridLayout>
+
+
+</StackLayout>
+
+<StackLayout class="done" row="1"   >
+<Button text ="CALCULATE" tap="done"  />
+</StackLayout>
+</GridLayout>
 </Page>

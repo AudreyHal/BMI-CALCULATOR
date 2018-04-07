@@ -1,0 +1,36 @@
+.bmi{
+    background-color: #58489e;
+    font-size: 30px;
+    height:80px;
+    padding-top: 10px;
+}
+
+
+
+.done button{ 
+    background-color: #58489e;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    height:93px;
+}
+.hac{
+    font-size: 41px;
+    font-style: italic;
+   margin-top: 100px;
+   text-align: center;}
+
+.label{margin-top:500px; 
+    font-size: 25px;
+}
+
+.page{color:#ffffff;
+    background-color:#242529;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    text-align: center;
+}
+
+.ii{
+height: 50px;
+width: 50px;
+}

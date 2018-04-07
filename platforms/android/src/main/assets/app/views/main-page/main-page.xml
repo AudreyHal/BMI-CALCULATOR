@@ -5,11 +5,19 @@
         
         </ActionBar>
     </Page.actionBar>
-    
-    <StackLayout >
-        <Label text="US Units" class="h1 text-center"/>
-        <Button text="TAP" tap="us" class="btn btn-primary btn-active"/>
-        <Label text="Metric Unit" class="h2 text-center" />
-        <Button text="TAP" tap="metric" class="btn btn-primary btn-active"/>
+    <GridLayout rows="*,auto">
+    <StackLayout row="0" >
+    <label text="H.A.C"  class="hac" /> 
+    <label text="BMI CALCULATOR"  class="bmi" /> 
+
+    <Image src="~/BBqqq.png" class="ii"/>
+    <label text="CALCULATE YOUR BMI NOW"  class="label" /> 
+  <!--  <Button text="history" tap="history" class="btn btn-primary btn-active"  row="0" col="1"/>
+    -->
+
     </StackLayout>
+    <StackLayout class="done" row="1"   >
+<Button text ="GO" tap="metric"  /> 
+</StackLayout>
+    </GridLayout>
 </Page>

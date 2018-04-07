@@ -1,7 +1,6 @@
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\app.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\bundle-config.js
-C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\main-page.js
-C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\main-view-model.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\nativescript-sqlite\sqlite.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
@@ -154,3 +153,9 @@ C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\asse
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\utils\utils.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xhr\xhr.js
 C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xml\xml.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\about\about.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\history\history.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\main-page\main-page.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\metric\metric.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\result\result.js
+C:\Users\HP\Desktop\nativescript\2project\twenty\platforms\android\src\main\assets\app\views\us-unit\us-unit.js

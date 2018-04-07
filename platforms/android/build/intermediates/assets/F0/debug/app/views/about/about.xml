@@ -1,0 +1,14 @@
+
+<Page loaded="loaded" class="page">
+       <Page.actionBar>
+        <ActionBar title="BMI CALCULATOR" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    
+    <StackLayout >
+        <Label text="US Units" class="h1 text-center"/>
+        <Button text="TAP" tap="us" class="btn btn-primary btn-active"/>
+        <Label text="Metric Unit" class="h2 text-center" />
+        <Button text="TAP" tap="metric" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>

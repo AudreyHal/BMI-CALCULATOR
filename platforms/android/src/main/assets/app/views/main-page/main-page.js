@@ -11,3 +11,6 @@ exports.us=function(){
 exports.metric=function(){
     frame.topmost().navigate("views/metric/metric");
  }
+ exports.history=function(args){ 
+    frame.topmost().navigate("views/history/history");
+    }
