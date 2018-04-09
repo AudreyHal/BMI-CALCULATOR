@@ -7,31 +7,21 @@ var model=null;
 
 exports.loaded=function(args){
   page= args.object;
-
-
 }
-
-
-
-
 
 
 function done(){
     var fileName="myFile.json";
     var file=fileSystem.knownFolders.documents().getFile(fileName);
- /*var mass= page.getViewById('mass').text;
+  var age= page.getViewById('age').text;
+    
+   var mass= page.getViewById('mass').text;
   var height1= page.getViewById('height1').text;
-  var height2= page.getViewById('height2').text;*/
-  var height1="5";
-  var height2="5";
-  var mass="200";
+  var height2= page.getViewById('height2').text;
+ 
 
- var height12= height1 * 12;
+var height12= height1 * 12;
  var height=+height12 + +height2;
- console.log(height);
-
-
-  
   height22= height*height;
   console.log(height22);
    var bmi=mass/height22;
@@ -41,17 +31,16 @@ function done(){
 console.log(us);
 
 
-var id=2;
-var saved=[{ id:"1", value:"ddd"}];
-saved.push({id:id , value:us});
 
-file.writeText(JSON.stringify(saved));
-id++;
-
+if (!age|| !height1|| !height1 ||!mass )
+{console.log("empty");
+ page.getViewById('msg').text ="Please do not leave any field empty";}
+    else{
 frame.topmost().navigate({ moduleName:"views/result/result",
 context:{model:us}});
+}}
 
-}
+
 exports.done= done;
 
 function selected(){
@@ -75,10 +64,6 @@ exports.selected2=selected2;
 
 
 exports.metric=function(){
- /* var u=page.getViewById('us');
-  var m=page.getViewById('metric');
-  m.className="active";
-  u.className="inactive";*/
-  
+ 
   frame.topmost().navigate("views/metric/metric");
 }

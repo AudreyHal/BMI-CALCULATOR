@@ -19,14 +19,19 @@ exports.loaded=function(args){
 function done(){
     var fileName="myFile.json";
     var file=fileSystem.knownFolders.documents().getFile(fileName);
- /*var mass= page.getViewById('mass').text;
+ var mass= page.getViewById('mass').text;
   var height1= page.getViewById('height1').text;
-  var height2= page.getViewById('height2').text;*/
-  var height1="5";
-  var height2="5";
-  var mass="200";
+  var height2= page.getViewById('height2').text;
+  console.log(height1);
+  console.log(height2);
+  console.log(mass);
+  
+  
+  
+  
+  
 
- var height12= height1 * 12;
+var height12= height1 * 12;
  var height=+height12 + +height2;
  console.log(height);
 
@@ -48,9 +53,13 @@ saved.push({id:id , value:us});
 file.writeText(JSON.stringify(saved));
 id++;
 
+
+if (isNAN(us))
+{console.log("empty");}
+else{
 frame.topmost().navigate({ moduleName:"views/result/result",
 context:{model:us}});
-
+}
 }
 exports.done= done;
 
@@ -71,3 +80,14 @@ function selected2(){
   
 }
 exports.selected2=selected2;
+
+
+
+exports.metric=function(){
+ /* var u=page.getViewById('us');
+  var m=page.getViewById('metric');
+  m.className="active";
+  u.className="inactive";*/
+  
+  frame.topmost().navigate("views/metric/metric");
+}

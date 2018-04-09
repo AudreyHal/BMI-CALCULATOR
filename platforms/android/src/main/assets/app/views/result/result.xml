@@ -22,6 +22,6 @@
 </GridLayout>
 
 <label text="ff" id="status2" textWrap="true"/>
-<Button text="history" tap="history"/>
+
 </StackLayout>
 </Page> 

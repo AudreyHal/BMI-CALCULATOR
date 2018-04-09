@@ -24,12 +24,7 @@
     height:93px;
   
 }
-#male{
-    margin-right:0px;
-    padding-right:0px;
-     
-    
-   }
+
     
 #female{margin-left:3px;
         padding-left:0px;
@@ -51,10 +46,27 @@
    
     }
 
+   
+
 .label{
     font-size: 18px;
     margin: 10px 0px 7px 0px;
     text-align:center; }
+
+
+ #male{
+        margin-right:0px;
+        padding-right:0px;
+         
+        
+       }
+
+ #msg{
+        font-size: 18px;
+        margin-top: 40px;
+        text-align:center;
+
+    }
 
 .page{color:#ffffff;
     background-color:#242529;
@@ -62,6 +74,7 @@
 
 .textfield{
     background-color:#ffffff; 
+    color: #161111;
     width:70%;
     margin: 0px 0px 20px 0px;
 }

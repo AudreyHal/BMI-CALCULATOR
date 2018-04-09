@@ -12,7 +12,7 @@
 .active{background-color:#6454a8; }
 .inactive{background-color: rgb(26, 22, 22);}
 
-.done{margin-top:250px;
+.done{margin-top:250px; 
     
    }
 
@@ -62,9 +62,10 @@
 
 .textfield{
     background-color:#ffffff; 
+    color: #161111;
     width:70%;
     margin: 0px 0px 20px 0px;
 }
 
-.top{padding-top:10px; }
+.top{padding-top:90px; }
 

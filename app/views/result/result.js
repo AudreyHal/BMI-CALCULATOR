@@ -25,15 +25,4 @@ exports.loaded=function(args){
  console.log(ids);
   }
   
-  exports.save=function(args){ 
-    
-   
-      var fileName="myFile.json";
-  var file=fileSystem.knownFolders.documents().getFile(fileName);
-    var saved=file.readTextSync();
-   
-  } 
-
-  exports.history=function(args){ 
-  frame.topmost().navigate("views/history/history");
-  }
+ 

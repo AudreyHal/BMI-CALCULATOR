@@ -1,13 +1,12 @@
-<Page class="page" loaded="loaded" >
-<Page.actionBar>
-        <ActionBar title="US UNITS" icon="" class="action-bar">
-        <ActionBar.actionItems>
-        <ActionItem text="Back" tap="back" id="back" style="color:white" />
-        </ActionBar.actionItems>
-        </ActionBar>
-    </Page.actionBar>
+<Page class="page" loaded="loaded" actionBarHidden="true" >
+
 
 <GridLayout rows="*,auto">
+<GridLayout columns= "*,*" rows="auto">
+<Button text ="US UNIT" id="us" row="0" col="0" tap="us" class="active" />
+<Button text ="METRIC UNIT" id="metric" row="0" col="1" tap="metric"  class="inactive" />
+
+</GridLayout>
 <StackLayout class="top" row="0" >
 <label text="AGE"  class="label" /> 
 
@@ -17,13 +16,13 @@
 
 
 <GridLayout columns= "*,*" rows="auto" class="bm" width="70%" >
-<TextField hint ="ft" id="height1" class="textfield"  row="0" col="0"  />
-<TextField hint ="inches" id="height2" class="textfield" row="0" col="1"  />
+<TextField hint ="ft" id="height1" class="textfield"  row="0" col="0" text="" />
+<TextField hint ="inches" id="height2" class="textfield" row="0" col="1" text="" />
 </GridLayout>
 
 <label text="WEIGHT"  class="label" /> 
 
-<TextField hint ="weight" id="mass"  class="textfield"   />
+<TextField hint ="weight" id="mass"  class="textfield" text=""  />
 
 <label text="GENDER"  class="label" /> 
 <GridLayout columns= "auto,auto" rows="auto" class="bm2" width="70%" >
