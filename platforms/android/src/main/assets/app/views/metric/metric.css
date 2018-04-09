@@ -7,74 +7,59 @@
 
 .bm2 button{    
     border-radius: 0px;
-        width: 50%;}
+    width: 50%;}
 
 .active{background-color:#6454a8; }
-.inactive{background-color: rgb(26, 22, 22);}
 
-.done{margin-top:250px;
-    
-   }
+.done{margin-top:250px; }  
 
 .done button{ 
     background-color: #58489e;
     border-radius: 5px;
     font-size: 22px;
     font-weight: bold;
-    height:93px;
-  
-}
-
+    height:93px;}
     
-#female{margin-left:3px;
-        padding-left:0px;
-      
-    
-    }
+#female{
+    margin-left:3px;
+    padding-left:0px; }
 
 .grid{text-align:center; }
 
 #height1{margin-left:auto;
     margin-right:4px;
-    padding-right:0px;
-  
-   }
+    padding-right:0px;  }
     
 #height2{margin-left:4px;
     margin-right:auto;
-    padding-left:0px;
-   
-    }
+    padding-left:0px; }
+
+.inactive{background-color: rgb(26, 22, 22);} 
 
 .label{
     font-size: 18px;
     margin: 10px 0px 7px 0px;
     text-align:center; }
 
-#male{
-        margin-right:0px;
-        padding-right:0px;
-         
-        
-       }
 
-  #msg{
-        font-size: 18px;
-        margin-top: 40px;
-        text-align:center;
+ #male{
+     margin-right:0px;
+     padding-right:0px;}
 
-    }
+ #msg{
+    font-size: 18px;
+     margin-top: 40px;
+     text-align:center; }
 
-.page{color:#ffffff;
-    background-color:#242529;
-}
+.page{
+    color:#ffffff;
+    background-color:#242529;}
 
 .textfield{
     background-color:#ffffff; 
-    color:#383737;
+    color: #161111;
     width:70%;
-    margin: 0px 0px 20px 0px;
-}
+    margin: 0px 0px 20px 0px;}
 
 .top{padding-top:90px; }
 

@@ -18,11 +18,6 @@ exports.loaded=function(args){
  else if (ids>=25 && ids<30  ){page.getViewById('status2').text ="You most likely have too much weight in relation tro your height. ";}
  else if (ids>=30 && ids<35  ){page.getViewById('status2').text ="DANGER! You are Obese and at a much higher risk of developing chronic diseases and shortening your lifespan";}
  else if (ids>=35 ){page.getViewById('status2').text ="DANGER!!! You are in a state proven to cause dangerous health issues ";}
- 
-
-
- 
- console.log(ids);
   }
   
  

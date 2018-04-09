@@ -3,7 +3,7 @@
 <label text="YOUR BODY MASS INDEX (BMI)" id="title" /> 
 <StackLayout class="head">
 
-<GridLayout columns= "auto,auto" rows="auto" class="bm" width="40%" >
+<GridLayout columns= "auto,auto" rows="auto" class="bm" width="40%"  >
 <label text="BMI : "   row="0" col="0" id="h1"/>
 <label text="{{model}}" id="model"  row="0" col="1"/>
 </GridLayout>
